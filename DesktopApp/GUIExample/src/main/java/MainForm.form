@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="MainForm">
+  <grid id="27dc6" binding="mainPanel" layout-manager="BorderLayout" hgap="50" vgap="40">
+    <constraints>
+      <xy x="20" y="20" width="500" height="400"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <component id="da449" class="javax.swing.JTextArea" binding="textArea">
+        <constraints border-constraint="Center"/>
+        <properties/>
+      </component>
+      <grid id="91a8b" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="0">
+        <constraints border-constraint="South"/>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="2487d" class="javax.swing.JButton" binding="clearButton">
+            <constraints/>
+            <properties>
+              <text value="очистить"/>
+            </properties>
+          </component>
+          <component id="1447b" class="javax.swing.JButton" binding="countButton">
+            <constraints/>
+            <properties>
+              <horizontalAlignment value="0"/>
+              <horizontalTextPosition value="0"/>
+              <text value="подсчитать"/>
+              <verticalAlignment value="0"/>
+              <verticalTextPosition value="0"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <hspacer id="ea907">
+        <constraints border-constraint="North"/>
+      </hspacer>
+      <vspacer id="c4f35">
+        <constraints border-constraint="East"/>
+      </vspacer>
+      <vspacer id="a2280">
+        <constraints border-constraint="West"/>
+      </vspacer>
+    </children>
+  </grid>
+</form>
